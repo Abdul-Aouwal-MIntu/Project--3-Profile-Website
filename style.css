@@ -1,8 +1,15 @@
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 h1{
     font-size: 50px;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
 }
 .name-higlight{
     color: orange;
@@ -15,4 +22,24 @@ h1{
 }
 .half-width img{
     width: 100%;
+} 
+.top-banner{
+    background-image:url("images/top-banner.png");
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.link-button{
+    font-size: 20px;
+    text-decoration: none;
+    background-image:linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+.dream-area{
+    background-image: url(
+   "images/dream-bg.png");
+   height: 500px;
+   background-repeat: no-repeat;
+   background-position: right;
 }
